@@ -5,8 +5,8 @@ import 'package:http/http.dart' as http;
 class FirebaseService {
   // Ganti parameter ini dengan rahasia Firebase dari ESP32 Anda
   final String baseUrl =
-      "https://smart-garden-iot-456f3-default-rtdb.asia-southeast1.firebasedatabase.app";
-  final String authSecret = "rqx7cwmLSywPCLImvPrwnu6IsYaswrodZxw3MaTe";
+      "https://asia-southeast1.firebasedatabase.app";
+  final String authSecret = "rqx7cwmLSywPC";
 
   final _sensorDataController =
       StreamController<Map<String, dynamic>>.broadcast();
